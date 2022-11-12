@@ -1,0 +1,38 @@
+h1 {
+    color: aqua;
+    text-align: center;
+    background: linear-gradient(to right,red,blue,green);
+
+}
+h2 {
+    color: blueviolet;
+    /* background-color: red; */
+    animation-name: h1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transition: linear;
+}
+@keyframes h1 {
+    100% { transform: translateX(900px);}
+    
+}
+h3 {
+    color:brown;
+}
+h4 {
+    color:blue;
+}
+h3:hover {
+    color:deepskyblue;
+}
+h4:hover {
+    color:lime;
+}
+div {
+    background-color:lightslategray;
+}
+pre:hover {
+    font-size: 20px;
+    color:gold
+}
